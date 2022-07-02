@@ -1,0 +1,136 @@
+{
+    "name": "KING BOT - MD - V1",
+    "description": "ᴋɪɴɢ ᴡʜᴀᴛꜱᴀᴘᴘ ᴜꜱᴇʀ ʙᴏᴛ ᴠ1.0.0",
+    "logo": "https://telegra.ph/file/24b9b8507613125d34bd1.jpg",
+    "keywords": ["whatsapp", "userbot", "king", "bot", "wh" , "MD" ],
+    "repository": "https://github.com/KING-BOT-OFFICIAL/KING-BOT-MD",
+    "stack": "container",
+     "env": {
+            "KINGBOTMD_SESSION": {
+            "description": "",
+            "required": true
+             },
+            "AUTO_REACT": {
+            "description": "",
+            "value": "false" ,
+            "required": true
+             },
+            "ANTI_LINK": {
+            "description": "",
+            "value": "false" ,
+            "required": true
+             },
+            "CAPTION": {
+            "description": "",
+            "value": "ɢᴇɴᴇᴛᴀʀᴀᴛᴇᴅ ʙʏ ᴋɪɴɢ ʙᴏᴛ ²⁰²²" ,
+            "required": true
+             },
+            "INBOX_BLOCK": {
+            "description": "",
+            "value": "false" ,
+            "required": true
+             },
+            "INBOX_BLOCK_MSG": {
+            "description": "",
+            "value": "default" ,
+            "required": true
+             },
+            "ALIVE_MESSAGE": {
+            "description": "",
+            "value": "default", 
+            "required": true
+             },
+            "ALIVE_LOGO": {
+            "description": "",
+            "value": "https://telegra.ph/file/24b9b8507613125d34bd1.jpg" ,
+            "required": true
+             },
+            "SONG_DOWNLOAD": {
+            "description": "",
+            "value": "*📥 Downloading your song...*" ,
+            "required": true
+             }, 
+            "SONG_UPLOAD": {
+            "description": "",
+            "value": "*📤 Uploading your song...*" ,
+            "required": true
+             },
+            "VIDEO_DOWNLOAD": {
+            "description": "",
+            "value": "*📥 Downloading your video...*" ,
+            "required": true
+             },
+            "VIDEO_UPLOAD": {
+            "description": "",
+            "value": "*📤 Uploading your video...*" ,
+            "required": true
+             },
+            "WORK_TYPE": {
+            "description": "",
+            "value": "public" ,
+            "required": true
+             },
+            "SUDO": {
+            "description": "",
+            "value": "" ,
+            "required": false
+             },
+            "LANGUAGE": {
+            "description": "",
+            "value": "EN" ,
+            "required": true
+             },
+            "HEROKU": {
+            "description": "",
+            "value": "true" ,
+            "required": true
+             },
+            "HEROKU_API_KEY": {
+            "description": "",
+            "value": "" ,
+            "required": true
+             },
+            "HEROKU_APP_NAME": {
+            "description": "",
+            "value": "" ,
+            "required": true
+             },
+            "BAN_MESSAGE": {
+            "description": "",
+            "value": "default" ,
+            "required": true
+             },
+            "ADD_MESSAGE": {
+            "description": "",
+            "value": "default" ,
+            "required": true
+             },
+            "PROMOTE_MESSAGE": {
+            "description": "",
+            "value": "default" ,
+            "required": true
+             },
+            "DEMOTE_MESSAGE": {
+            "description": "",
+            "value": "default" ,
+            "required": true
+             },
+            "MUTE_MESSAGE": {
+            "description": "",
+            "value": "default" ,
+            "required": true
+             },
+            "UNMUTE_MESSAGE": {
+            "description": "",
+            "value": "default" ,
+            "required": true
+             }
+        
+     },
+    "addons": [{
+      "plan": "heroku-postgresql"
+    }],
+    "buildpacks": [{
+      "url": "heroku-community/apt"
+      }]
+  }
