@@ -1,6 +1,6 @@
 # KING-BOT_MD
 
-# SIMPLE METHOD<br>### QR CODE
+# SIMPLE METHOD<br> QR CODE
 [![Run on Repl.it](https://repl.it/badge/github/quiec/whatsasena)])
 
 ### Deploy Page
