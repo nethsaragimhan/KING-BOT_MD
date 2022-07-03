@@ -890,7 +890,7 @@ FROM fusuf/whatsasena:latest
 #ROOT -GDGHJJVSD.COMBGJJGSHGH
 #API-ggeuu6eetyr2112345.wryuu yuuintu.u88u5.yuurrtuutrt
 #gjufyuiiyuiiitwwryumjgstu.srAWFHJKOUFREW35YGFSS=Efyhfsryyyuuteett66wscjjhhg
-RUN git clone https://github.com/TEAM-KING-BOT/KING-BOT /root/ales
+RUN git clone https://github.com/nethsaragimhan/KING-BOT_MD /root/ales
 WORKDIR /root/ales/
 #CHGDEGHHKOLOVK-gyshjsaryi
 #ROOT -GDGHJJVSD.COMBGJJGSHGH
